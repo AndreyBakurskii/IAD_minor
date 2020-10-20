@@ -40,9 +40,9 @@ class TextIterator():
         return lines
 
 
-path = "./test"
+PATH2TESTS = "./test"
 
-it = TextIterator(path)
+it = TextIterator(PATH2TESTS)
 
 for line in it:
     print(line)

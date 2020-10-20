@@ -16,6 +16,7 @@ def gen_for_files(path: str):
         else:
             yield from gen_for_files(elem_path)
 
+TEST_PATH = "D:\python_project\IAD_minor\Homeworks"
 
-for elem in gen_for_files(path="D:\python_project\IAD_minor\Homeworks"):
+for elem in gen_for_files(path=TEST_PATH):
     print(elem)
