@@ -1,4 +1,5 @@
 def possible_strings(string: str, len_return_str: int, repeat: bool) -> list:
+
     if len_return_str == 1:
         return [char for char in string]
 
