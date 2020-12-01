@@ -110,6 +110,7 @@ def top_10(data, hemisphere, key):
     print()
     return top10_
 
+
 rows = []
 with open("quake.csv", "r", newline='') as csv_file:
     for row in csv.DictReader(csv_file):
